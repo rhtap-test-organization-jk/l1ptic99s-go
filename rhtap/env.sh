@@ -18,7 +18,7 @@ export BUILD_ARGS_FILE=${BUILD_ARGS_FILE-""}
 # from ACS_*.*
 export DISABLE_ACS=${DISABLE_ACS-false}
 # Optionally set ROX_CENTRAL_ENDPOINT here instead of configuring a Jenkins secret
-# export ROX_CENTRAL_ENDPOINT=central-acs.apps.user.cluster.domain.com:443
+export ROX_CENTRAL_ENDPOINT=central-rhacs-operator.apps.rosa.rhtap-services.xmdt.p3.openshiftapps.com:443
 export INSECURE_SKIP_TLS_VERIFY=${INSECURE_SKIP_TLS_VERIFY-true}
 
 # for gitops, if acs scans are set, we still may not want that repo 
